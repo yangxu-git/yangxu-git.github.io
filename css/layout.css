@@ -60,7 +60,7 @@ table {
 
 .main
 {
-	width: 50em;
+	width: 55em;
 	background-color: white;
 	margin: 0 auto;
 	padding:.1em 0 0 0 ;
@@ -68,7 +68,7 @@ table {
 
 .name_div					/* div for name (YangXu)*/
 {
-	width: 50em;
+	width: 55em;
 	height: 4em;
 	background-color: #ff6600;
 	margin-top: 1.5em;
@@ -98,7 +98,7 @@ table {
 
 .ui-tabs-vertical		/* the object of the whole tab, can setup width and height */
 { 
-	width: 49.3em; 
+	width: 54em; 
 	border: none; 
 }
 
@@ -171,12 +171,12 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 { 
 	padding-top: .2em !important; 
 	float: left; 
-	width: 35em;
+	width: 40em;
 }
 
 #home_section
 {
-	width: 37em;
+	width: 42em;
 	padding-top: .5em;
 	background-color: white;
 }
@@ -190,21 +190,21 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 #publication_section
 {
-	width: 37em;
+	width: 42em;
 	padding-top: 1em;
 	background-color: white;
 }
 
 #research_section
 {
-	width: 37em;
+	width: 42em;
 	padding-top: .5em;
 	background-color: white;
 }
 
 .copyright_div
 {
-	width: 50em;
+	width: 55em;
 	height: 3em;
 	background-color: #404040;
 }
@@ -427,8 +427,8 @@ a:hover
 #my_pic
 {
 	float: left;
-	width: 10em;
-    height: 10em;
+	width: 12.4em;
+    height: 12.4em;
     margin-right: 1em;
     margin-bottom: 1em;
 }
