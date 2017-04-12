@@ -1,8 +1,470 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<head>
+ 	<meta charset="utf-8">
+ 	<script src="js/jquery-3.0.0.js"></script>
+  	<script src="js/jquery-ui.js"></script>
+ 	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+ 	<link rel="stylesheet" href="css/layout.css">
+
+</head>
 
 <body>
-Helle World
-</body>
+	
 
+	<div class="whole">
+		
+		<div class="main">
+			
+			<div class="name_div">
+				<p id="name_text">Yang Xu</p>
+				<p id="contact_text">yangxu@smart.mit.edu<br>1 CREATE Way, Singapore 138602</p>
+			</div><!-- end of name -->		
+					
+				<div id="tabs">
+					  
+					  <ul>
+					    <li><a href="#tabs-1">Home</a></li>
+					    <li><a href="#tabs-2">Projects</a></li>
+					    <li><a href="#tabs-3">Publications</a></li>
+					  </ul>
+					  
+					  <div id="tabs-1">
+					  	
+					  	<div id="home_section">
+					  		
+					  		<div id="name">
+								
+							  </div> id="my_pic">
+					  			<img src="img/YangXu_Photo_20170305_Clip.jpg" alt="" />
+					  		</div>
+					  		
+					  		<p id="bio" class="text_style1">
+					  			I am a joint postdoctoral researcher at the 
+					  			<a class="hyperlink_style0" href="http://senseable.mit.edu/" target="_blank">MIT Senseable City Lab</a> and
+					  			the <a class="hyperlink_style0" href="http://smart.mit.edu/home.html" target="_blank">Singapore-MIT Alliance for Research and Technology (SMART)</a>.
+					  			My research interests include <span class="text_style2">Geographic Information Science</span>,
+					  			<span class="text_style2">GIS for Transportation</span>, and <span class="text_style2">Urban Informatics</span>. 
+					  			By harnessing the power of big geo-social data,
+					  			(e.g., <span style="font-style:italic;">mobile phone records, GPS traces, social media data</span>), my research answers 
+					  			important questions of individual travel behavior, collective human mobility patterns, and various aspects of urban and 
+					  			social dynamics.
+					  			
+					  			<br><br>
+					  		</p><!-- end of bio -->	
+					  		
+					  	
+					  		<div id="google_scholar" onclick="window.open('https://scholar.google.com.sg/citations?user=97A-qAoAAAAJ&hl=en', '_blank')"; style="cursor: pointer;">
+					  			<img src="img/google_scholar.PNG" alt="" />
+					  		</div>
+					  		
+					  		<div id="researchgate" onclick="window.open('https://www.researchgate.net/profile/Yang_Xu52', '_blank')"; style="cursor: pointer;">
+					  			<img src="img/researchgate.png" alt="" />
+					  		</div>
+					  		
+					  		
+					  		<div id="orcid" onclick="window.open('http://orcid.org/0000-0003-3898-022X', '_blank')"; style="cursor: pointer;">
+					  			<img src="img/ORCID.png" alt="" />
+					  		</div>
+
+					  		
+					  		<br><br><br><br><br>
+
+					  		<p id="academic_path" class="text_style3">Academic Path</p><!-- end of academic path -->
+					  		<p class="text_style4">Postdoctoral Associate, <a class="hyperlink_style1" href="http://senseable.mit.edu/" target="_blank">MIT Senseable City Lab</a>, 
+					  				<a class="hyperlink_style1" href="http://smart.mit.edu/home.html" target="_blank">SMART Centre</a>, Singapore (2016 - Now)</p>
+					  		<p class="text_style4">Research Assistant, <a class="hyperlink_style1" href="https://www.ornl.gov/" target="_blank">Oak Ridge National Laboratory (ORNL)</a>, US (2013 - 2015)</p>
+					  		<p class="text_style4">Ph.D., Geographic Information Science, <a class="hyperlink_style1" href="http://www.utk.edu/" target="_blank">University of Tennessee, Knoxville</a>, US (2011 - 2015)</p>
+					  		<p class="text_style4">M.S., Geographic Information Science, Wuhan University, China (2009 - 2010)</p>
+					  		<p class="text_style4">B.S., Remote Sensing and Photogrammetry, <a class="hyperlink_style1" href="http://www.whu.edu.cn/" target="_blank">Wuhan University</a>, China (2005 - 2009)</p>
+					  			
+					  			
+					  		<br>
+					  		
+					  		<p id="What's New" class="text_style3">What's New</p><!-- end of academic path -->	
+					  		
+					  		<p class="text_style4">
+					  			<span class="star_sign">&#9734</span> <span class="text_date">January 2017</span>, Our paper <a class="hyperlink_style1" href="http://www.sciencedirect.com/science/article/pii/S1364815216309379" target="_blank">
+					  			Building a Virtual Ecosystem Dynamic Model for Root Research</a> is published online in 
+					  			<span class="text_style_publication_name">Environmental Modelling & Software</span>.
+					  			[<a class="hyperlink_style2" href="publication/2017_EMS_Root.pdf">PDF</a>]</p>
+					  		<br>
+					  		
+					  		<p class="text_style4">
+					  			<span class="star_sign">&#9734</span> <span class="text_date">July 2016</span>, Our paper <a class="hyperlink_style1" href="http://www.mdpi.com/2220-9964/5/8/131" target="_blank">
+					  			Estimating Potential Demand of Bicycle Trips from Mobile Phone Data - An Anchor Point Based Approach</a> is published online in the
+					  			<span class="text_style_publication_name">ISPRS International Journal of Geo-Information</span>.
+					  			[<a class="hyperlink_style2" href="publication/2016_IJGI.pdf">PDF</a>]</p>
+					  		<br>
+					  		
+					  		<p class="text_style4">
+					  			<span class="star_sign">&#9734</span> <span class="text_date">July 2016</span>, Our poster <span class="text_style2">Comparing Home Detection Methods Through Multi-Source Geo-Social Data</span> 
+					  			will be presented on the <span class="text_place_name">Future Urban Mobility Symposium</span> organized by the SMART Future Urban Mobility Group
+					  			at the <span class="text_place_name">National University of Singapore (NUS)</span>.
+					  			[<a class="hyperlink_style2" href="publication/2016_Poster_Home_Detection.pdf">PDF</a>]</p>
+					  		<br>
+					  		<p class="text_style4">
+					  			<span class="star_sign">&#9734</span> <span class="text_date">Feb 2016</span>, Our paper <a class="hyperlink_style1" href="http://www.tandfonline.com/doi/abs/10.1080/00045608.2015.1120147?journalCode=raag21" target="_blank">
+					  			Another Tale of Two Cities: Understanding Human Activity Space Using Actively Tracked Cellphone Location Data</a> is published online in the
+					  			<span class="text_style_publication_name">Annals of the American Association of Geographers</span>.
+					  			[<a class="hyperlink_style2" href="publication/2016_Annals.pdf">PDF</a>]</p>
+					  		
+
+					  	</div><!-- end of home section-->	
+					  
+					  </div><!-- end of tabs-1-->		
+					  
+					  <div id="tabs-2">
+					  	
+					  	<div id="research_section">
+					    	
+					    	<div class="project_image_style1">
+					  				<img src="img/project/2016_Friendship_Urban.png" alt="" />
+					  			</div>
+					  			<p class="text_style_project_name">Understanding the Social Roles of Urban Spaces</p>
+		
+					  		
+					  		<p class="text_style8">
+					            Using a mobile phone dataset collected in Singapore, we propose a framework to understand 
+					            how social contacts (<span class="text_style10">"friends"</span>) share urban space differently from random people. We derive 
+					            two metrics (<span class="text_style10">bonding</span> vs. <span class="text_style10">bridging</span>) to 
+					            quantify the potential of a place in connecting <span class="text_style10">friends</span> vs. 
+					            <span class="text_style10">chance encounters</span>. We then exmaine the temporal signature of the places' <span class="text_style10">bonding</span> 
+					            capabilities and associate the results with various types of Point of Interest (POI).
+					  		</p>
+					  		
+					  		<p class="text_style1">
+					  			<span class="text_style7">Conducted at:</span>
+					  			<a class="hyperlink_style2" href="http://senseable.mit.edu/" target="_blank">
+					    		MIT Senseable City Lab</a>
+					  		</p>
+					  		
+					  		<p class="text_style1">
+					  			<span class="text_style7">Publications:</span>
+					  			
+					  		</p>
+					    	
+					    	
+					    	<br><br><br>
+					    	<!-- end of previous project-->	
+					    	
+					    	<div class="project_image_style2">
+					  				<img src="img/project/2017_China_Cuisine.png" alt="" />
+					  			</div>
+					  			<p class="text_style_project_name">A Bite of China</p>
+		
+					  		<p class="text_style8">
+					            Using a dataset captured from a large online review site in China (<span class="text_style10">www.dianping.com</span>), 
+					            we demonstrate how geo-referenced social review data can be leveraged to gain new insights into the geography of consumers' 
+					            dining options with respect to different regional Chinese cuisines and other culinary styles. The research uncovers many 
+					            interesting findings which shed light on the geographic prevalance and mix of various cuisines across China.
+					  		</p>
+					  		
+					  		<p class="text_style1">
+					  			<span class="text_style7">Conducted at:</span>
+					  			<a class="hyperlink_style2" href="http://en.whu.edu.cn/" target="_blank">
+					    		Wuhan University</a> / 
+					    		<a class="hyperlink_style2" href="http://senseable.mit.edu/" target="_blank">
+					    		MIT Senseable City Lab</a>
+					  		</p>
+					  		
+					  		<p class="text_style1">
+					  			<span class="text_style7">Publications:</span>
+					  			
+					  		</p>
+					    	<br><br><br>
+					    	<!-- end of previous project-->	
+					    	
+					    	<div class="project_image_style1">
+					  			<img src="img/project/2015_bike_sharing.PNG" alt="" />
+					  		</div>
+					  		
+					  		<p class="text_style_project_name">Travel Demand Estimation Through Mobile Phone Data</p>
+							
+					  		<p class="text_style6">
+					  			By leveraging actively tracked mobile phone data, we propose an <span class="text_style10">
+					  			anchor-point based trajectory segmentation</span> method to estimate potential demand of 
+					  			bicycle trips in a city (Shenzhen, China).
+					  			The travel demand generated at the cellphone tower level is further used to support  
+					  			planning of bike sharing systems (e.g., location recommendation of bike sharing stations).
+					  		</p>
+					  		
+					  		<p class="text_style1">
+					  			<span class="text_style7">Conducted at:</span>
+					  			<a class="hyperlink_style2" href="http://www.utk.edu/" target="_blank">
+					    		University of Tennessee, Knoxville</a>
+					  		</p>
+
+					  		<p class="text_style1">
+					  			<span class="text_style7">Publications:</span>
+					  			<a class="hyperlink_style2" href="http://www.mdpi.com/2220-9964/5/8/131" target="_blank">
+					    		IJGI</a> (2016)
+					  		</p>
+					    	<br><br><br>
+					    	<!-- end of previous project-->	
+					    	
+					    	<div class="project_image_style2">
+					  				<img src="img/project/2015_mobility_signature.PNG" alt="" />
+					  			</div>
+					  			<p class="text_style_project_name">Deriving Mobility Signatures From Mobile Phone Data</p>
+		
+					  		<p class="text_style8">
+					            By using actively tracked mobile phone data in two big cities in China,
+					            we introduce three mobility indicators (<span class="text_style10">daily activity range, number 
+					  			of activity anchor points, frequency of movements</span>) to represent the major determinants of individual 
+					  			activity space, and demonstrate how these indicators can be combined with each other to gain insights into 
+					  			human mobility patterns in cities.
+					  		</p>
+					  		
+					  		<p class="text_style1">
+					  			<span class="text_style7">Conducted at:</span>
+					  			<a class="hyperlink_style2" href="http://www.utk.edu/" target="_blank">
+					    		University of Tennessee, Knoxville</a>
+					  		</p>
+					  		
+					  		<p class="text_style1">
+					  			<span class="text_style7">Publications:</span>
+					  			<a class="hyperlink_style2" href="http://www.tandfonline.com/doi/abs/10.1080/00045608.2015.1120147?journalCode=raag21" target="_blank">
+					    		Annals of AAG</a> (2016)
+					  		</p>
+					    	
+					    	
+					    	<br><br><br>
+					    	<!-- end of previous project-->	
+					  		
+					  		<div class="project_image_style1">
+					  			<img src="img/project/2014_activity_space.png" alt="" />
+					  		</div>
+					  		
+					  		<p class="text_style_project_name">Mapping the Spatial Extent of Human Activity Space</p>
+							
+					  		<p class="text_style6">
+					  			How do people's daily activities take place around where they live? Do people living in 
+					  			different parts of a city exhibit different activity space sizes? By leveraging 
+					  			mobile call detail records (CDRs), we propose a <span class="text_style10">home-based approach</span> 
+					  			to quantifying the spatial extent of human activity space, and investigate how they 
+					  			are related to the socio-economic characteristics of the built environment.
+					  		</p>
+					  		
+					  		<p class="text_style1">
+					  			<span class="text_style7">Conducted at:</span>
+					  			<a class="hyperlink_style2" href="http://www.utk.edu/" target="_blank">
+					    		University of Tennessee, Knoxville</a>
+					  		</p>
+
+					  		<p class="text_style1">
+					  			<span class="text_style7">Publications:</span>
+					  			<a class="hyperlink_style2" href="http://link.springer.com/article/10.1007/s11116-015-9597-y" target="_blank">
+					    		Transportation</a> (2015)
+					  		</p>
+					  		<br><br><br>
+					  		<!-- end of previous project-->	
+					  		
+					  		
+					  		<div class="project_image_style2">
+					  				<img src="img/project/2014_visual_analytic.PNG" alt="" />
+					  			</div>
+					  			<p class="text_style_project_name">Visual-Analytic System for Complex Environmental Models</p>
+		
+					  		<p class="text_style8">
+					            I develop a web-based visual analytic system to help environmental scientists better understand 
+					            the software structures of large-scale environmetal models. The framework integrates data management, 
+					            software structure analysis, and web-based visualizations.
+					  		</p>
+					  		
+					  		<p class="text_style1">
+					  			<span class="text_style7">Conducted at:</span>
+					  			<a class="hyperlink_style2" href="https://www.ornl.gov/" target="_blank">
+					    		Oak Ridge National Laboratory (ORNL)</a>
+					  		</p>
+					  		
+					  		<p class="text_style1">
+					  			<span class="text_style7">Website:</span>
+					  			<a class="hyperlink_style2" href="http://cem-base.ornl.gov/CLM_Web/CLM_Web.html" target="_blank">
+					    		http://cem-base.ornl.gov/CLM_Web/CLM_Web.html</a>
+					  		</p>
+					  		
+					  		<p class="text_style1">
+					  			<span class="text_style7">Publications:</span>
+					  			<a class="hyperlink_style2" href=http://worldcomp-proceedings.com/proc/p2014/SER2350.pdf target="_blank">
+					    		SERP</a> (2014); 
+					    		<a class="hyperlink_style2" href=http://www.sciencedirect.com/science/article/pii/S1364815216309379 target="_blank">
+					    		EMS</a> (2017);
+					  		</p>
+					    	
+					    	
+
+					  	</div><!-- end of research_section-->	
+					  
+					  </div><!-- end of tabs-2-->		
+					  
+					  <div id="tabs-3">
+					    <div id="publication_section">
+					    	
+					    	<p class="text_style_publication_date">2017</p>
+					    	<br>
+					    	
+					    	<p class="text_style5">
+					    	[15]. <span class="my_name_in_publication">Xu, Y.</span>, Wang, D., Iverson, C., Walker, A. and Warren, J. 
+					    	<a class="hyperlink_style1" href="http://www.sciencedirect.com/science/article/pii/S1364815216309379" target="_blank">
+					    		Building a Virtual Ecosystem Dynamic Model for Root Research</a>.
+					    		<span class="text_style_publication_name">Environmental Modelling & Software</span>.
+					    		[<a class="hyperlink_style2" href="publication/2017_EMS_Root.pdf">PDF</a>]
+					    	</p>
+					    	<br><br>
+					    	
+					    	<p class="text_style_publication_date">2016</p>
+					    	<br>
+					    	
+					    	<p class="text_style5">
+					    	[14]. Yang, X., Fang, Z., <span class="my_name_in_publication">Xu, Y.</span>, Shaw, S-L., Zhao Z.,
+					    	Yin, L., Zhang, T. and Lin, Y.
+					    	<a class="hyperlink_style1" href="http://www.mdpi.com/2220-9964/5/10/177" target="_blank">
+					    		Understanding Spatiotemporal Patterns of Human Convergence and Divergence Using Mobile Phone Location Data</a>.
+					    		<span class="text_style_publication_name">ISPRS Internaional Journal of Geo-Information</span>.
+					    		[<a class="hyperlink_style2" href="publication/2016_IJGI2.pdf">PDF</a>]
+					    	</p>
+					    	<br>
+					    	
+					    	<p class="text_style5">
+					    	[13]. <span class="my_name_in_publication">Xu, Y.</span>, Shaw, S-L., Fang, Z. and Yin, L.
+					    	<a class="hyperlink_style1" href="http://www.mdpi.com/2220-9964/5/8/131" target="_blank">
+					    		Estimating Potential Demand of Bicycle Trips from Mobile Phone Data - An Anchor Point Based Approach</a>.
+					    		<span class="text_style_publication_name">ISPRS Internaional Journal of Geo-Information</span>.
+					    		[<a class="hyperlink_style2" href="publication/2016_IJGI.pdf">PDF</a>]
+					    	</p>
+					    	<br>
+					    	
+					    	<p class="text_style5">
+					    	[12]. He, H., Wang, D., <span class="my_name_in_publication">Xu, Y.</span> and Tan, J. 
+					    	<a class="hyperlink_style1" href="http://www.sciencedirect.com/science/article/pii/S1877750316300059" target="_blank">
+					    		Data synthesis in the Community Land Model for ecosystem simulation</a>.
+					    		<span class="text_style_publication_name">Journal of Computational Science</span>.
+					    		[<a class="hyperlink_style2" href="publication/2016_Computation_Science.pdf">PDF</a>]
+					    	</p>
+					    	
+					    	<br>
+					    	<p class="text_style5">
+					    	[11]. <span class="my_name_in_publication">Xu, Y.</span>, Shaw, S-L., Zhao, Z., Yin, L., Lu, F., Chen, J., Fang, Z. and Li, Q.  
+					    	<a class="hyperlink_style1" href="http://www.tandfonline.com/doi/abs/10.1080/00045608.2015.1120147?journalCode=raag21" target="_blank">
+					    		Another Tale of Two Cities — Understanding Human Activity Space using Actively Tracked Cellphone Location Data</a>.
+					    		<span class="text_style_publication_name">Annals of the American Association of Geographers</span>.
+					    		[<a class="hyperlink_style2" href="publication/2016_Annals.pdf">PDF</a>]
+					    	</p>
+					    	
+					    	<br>
+					    	<p class="text_style5">
+					    	[10]. Zhao, Z., Shaw, S-L., <span class="my_name_in_publication">Xu, Y.</span>, Lu, F., Chen, J. and Yin, L. 
+					    	<a class="hyperlink_style1" href="http://www.tandfonline.com/doi/abs/10.1080/13658816.2015.1137298?journalCode=tgis20#.V4zdkfl97IU" target="_blank">
+					    		Understanding the Bias of Call Detail Records in Human Mobility Research</a>.
+					    		<span class="text_style_publication_name">International Journal of Geographical Information Science</span>.
+					    		[<a class="hyperlink_style2" href="publication/2016_IJGIS_CDR.pdf">PDF</a>]
+					    	</p>
+					    	
+					    	<br><br>
+					    	<p class="text_style_publication_date">2015</p>
+					    	<br>
+					    	<p class="text_style5">
+					    	[9]. <span class="my_name_in_publication">Xu, Y.</span>, Shaw, S-L., Zhao, Z., Yin, L., Fang, Z. and Li. Q. 
+					    	<a class="hyperlink_style1" href="http://link.springer.com/article/10.1007/s11116-015-9597-y" target="_blank">
+					    		Understanding aggregate human mobility patterns using passive mobile phone location data: a home-based approach</a>.
+					    		<span class="text_style_publication_name">Transportation</span>.
+					    		[<a class="hyperlink_style2" href="publication/2015_Transportation_CDR.pdf">PDF</a>]
+					    	</p>
+					    	
+					    	<br>
+					    	<p class="text_style5">
+					    	[8]. <span class="my_name_in_publication">Xu, Y.</span>, Shaw, S-L., Zhao, Z., Yin, L., Fang, Z. and Li. Q. 
+					    	<a class="hyperlink_style1" href="http://www.geocomputation.org/2015/papers/GC15_42.pdf" target="_blank">
+					    		Understanding Individual Daily Activity Spaces Based on Large Scale Mobile Phone Location Data</a>.
+					    		<span class="text_style_publication_name">Proceedings of The 13th International Conference on GeoComputation</span>. Dallas, Texas, USA.
+					    	</p>
+					    				    	
+					    	<br><br>
+					    	<p class="text_style_publication_date">2014</p>
+					    	
+					    	<br>
+					    	<p class="text_style5">
+					    	[7]. Wang, D., <span class="my_name_in_publication">Xu, Y.</span>, Thornton, P., King, A., Steed, C., Gu, L. and Schuchart
+					    	<a class="hyperlink_style1" href="http://www.sciencedirect.com/science/article/pii/S1364815214000255" target="_blank">
+					    		A functional test platform for the Community Land Model</a>.
+					    		<span class="text_style_publication_name">Environmental Modelling & Software</span>.
+					    		[<a class="hyperlink_style2" href="publication/2014_EMS.pdf">PDF</a>]
+					    	</p>
+
+					    	
+					    	<br>
+					    	<p class="text_style5">
+					    	[6]. <span class="my_name_in_publication">Xu, Y.</span>, Wang, D., Janjusic, T. and Xu, X. 
+					    	<a class="hyperlink_style1" href="http://worldcomp-proceedings.com/proc/p2014/SER2350.pdf" target="_blank">
+					    		A Web-based Visual Analytic System for Understanding the Structure of Community Land Model</a>.
+					    		<span class="text_style_publication_name">Proceedings of The 13th International Conference on Software Engineering Research and Practice</span>. Las Vegas, NV. USA.
+					    	</p>
+					    	
+					    	<br>
+					    	<p class="text_style5">
+					    	[5]. Wang, D., Schuchart, T., Janjusic, T., Winkler, F., <span class="my_name_in_publication">Xu, Y.</span> and Kartsaklis.
+					    	<a class="hyperlink_style1" href="http://www.sciencedirect.com/science/article/pii/S1877050914003147" target="_blank">
+					    		Toward Better Understanding of the Community Land Model within the Earth System Modeling Framework</a>.
+					    		<span class="text_style_publication_name">Procedia Computer Science</span>.
+					    		[<a class="hyperlink_style2" href="publication/2014_Procedia.pdf">PDF</a>]
+					    	</p>
+					    	
+					    	<br>
+					    	<p class="text_style5">
+					    	[4]. Wang, D. and <span class="my_name_in_publication">Xu, Y.</span>.
+					    	<a class="hyperlink_style1" href="http://www.iemss.org/sites/iemss2014/papers/iemss2014_submission_24.pdf" target="_blank">
+					    		Software Engineering for Scientific Application: Effort Report on The Community Land Model within the Earth System Modeling Framework</a>.
+					    		<span class="text_style_publication_name">Proceedings of The 7th International Congress on Environmental Modelling and Software</span>. San Diego, CA, USA.
+					    	</p>
+					    	
+					    	<br><br>
+					    	<p class="text_style_publication_date">2012</p>
+					    	
+					    	<br>
+					    	<p class="text_style5">
+					    	[3]. <span class="my_name_in_publication">Xu, Y.</span>, Shaw, S-L., Chen, J., Li, Q., Fang, Z. and Li, Y.
+					    	<a class="hyperlink_style1" href="http://www.giscience.org/past/2012/proceedings/abstracts/giscience2012_paper_67.pdf" target="_blank">
+					    		Uncover Repeated Spatio-temporal Behavioral Patterns Embedded in GPS-based Taxi Tracking Data</a>.
+					    		<span class="text_style_publication_name">Proceedings of The 7th International Conference on Geographic Information Science</span>. (Extended abstract). Columbus, OH, USA.
+					    	</p>
+					    	
+					    	<br>
+					    	<p class="text_style5">
+					    	[2]. Chen, J., Shaw, S-L., <span class="my_name_in_publication">Xu, Y.</span>, Li, Q., Fang, Z. and Li, Y.
+					    	<a class="hyperlink_style1" href="http://www.giscience.org/past/2012/proceedings/abstracts/giscience2012_paper_90.pdf" target="_blank">
+					    		Where and When Taxi Drivers Deviate from the Shortest Path in Their Route Choices: A Case Study of Wuhan, China</a>.
+					    		<span class="text_style_publication_name">Proceedings of The 7th International Conference on Geographic Information Science</span>. (Extended abstract). Columbus, OH, USA.
+					    	</p>
+					    	
+					    	<br><br>
+					    	<p class="text_style_publication_date">2011</p>
+					    	
+					    	<br>
+					    	<p class="text_style5">
+					    	[1]. <span class="my_name_in_publication">Xu, Y.</span>, Li, Q. and Tang, L. 
+					    	<a class="hyperlink_style1" href="http://www.cnki.com.cn/Article/CJFDTOTAL-CHTB201104004.htm" target="_blank">
+					    		Road Damage Detection from Remote Sensing Imagery Based on Road Network Vector Data</a>.
+					    		<span class="text_style_publication_name">Bulletin of Surveying and Mapping</span> (in Chinese).
+					    		[<a class="hyperlink_style2" href="publication/2011_Bulletin.pdf">PDF</a>]
+					    	</p>
+					    	
+					    	
+					    </div><!-- end of publication-->		
+					  </div><!-- end of tabs-3-->		
+					
+					</div><!-- end of all tabs -->
+					<script src="js/tab-initialization.js"></script>
+					
+			
+				<div class="copyright_div">
+					<p class="copyright_text">@ 2016 Yang Xu, All Rights Reserved</p>
+	
+				</div><!-- end of copyright -->
+		
+		</div><!-- end of main-->
+	
+	</div><!-- end of whole-->
+
+</body>
 </html>
