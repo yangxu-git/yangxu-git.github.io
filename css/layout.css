@@ -256,7 +256,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	font-weight: bold;
 	line-height: 2.5em !important;
 	/*text-decoration: underline;*/
-	border-bottom:3px solid #17202A;
+	/*border-bottom:3px solid #17202A;*/
 	/*color: #ff6600 !important;*/
 }
 
