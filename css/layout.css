@@ -249,13 +249,15 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style3
 {
-	font-size: 1.5 em;
+	font-size: 1.1em !important;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	text-align: justify;
-	color: black !important;
+	color: #17202A !important;
 	font-weight: bold;
 	line-height: 2.5em !important;
-	color: #ff6600 !important;
+	/*text-decoration: underline;*/
+	border-bottom:3px solid #17202A;
+	/*color: #ff6600 !important;*/
 }
 
 .text_style4
@@ -265,7 +267,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	text-align: justify;
 	color: black !important;
 	line-height: 2em !important;
-	margin-left: 2em;
+	/*margin-left: 2em;*/
 }
 
 .text_style5
