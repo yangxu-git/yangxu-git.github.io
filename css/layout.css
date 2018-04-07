@@ -243,7 +243,6 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 .text_style2
 {
 	font-weight: bold;
-	font-style:italic;
 	color: black !important;
 }
 
@@ -338,7 +337,6 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 .text_style_publication_name
 {
 	font-family: 'Cabin', Helvetica, sans-serif;
-	font-style: italic;
 	color: green;
 	font-weight: bold;
 	/*text-decoration: underline;*/
@@ -352,7 +350,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	font-family: 'Cabin', Helvetica, sans-serif;
 	font-weight: bold;
 	line-height: 1.64em;
-	color: blue;  /* #ff6600 */
+	color: #4d4dff;  /*#3575D3*/
 }
 
 
@@ -366,7 +364,6 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 .text_date
 {
 	font-family: 'Cabin', Helvetica, sans-serif;
-	font-weight: bold;
 }
 
 .hyperlink_style0
@@ -388,7 +385,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	color: black !important;
 	text-decoration: none;
 	padding: 0 !important;
-	font-weight: bold;
+
 }
 
 .hyperlink_style2
@@ -399,6 +396,15 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	font-weight: bold;
 }
 
+.hyperlink_style3
+{
+	color: black !important;
+	text-decoration: none;
+	padding: 0 !important;
+	font-weight: bold;
+
+}
+
 .hyperlink_style1 a
 {
 	padding: 0 !important;
@@ -406,7 +412,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 a:hover
 {
-	color: #0000cc !important;
+	color: #4d4dff !important;
 }
 
 .text_style_publication_date
@@ -415,7 +421,7 @@ a:hover
 	font-size: 1em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	font-weight: bold;
-	color: blue !important;
+	color: #4d4dff !important;
 }
 
 .my_name_in_publication
@@ -488,7 +494,7 @@ a:hover
 #google_scholar
 {
 	float: left;
-	width: 9.17em;
+	width: 8.8em;
     height: 3.5em;
     /*box-shadow: 5px 5px 3px grey;*/
 }
