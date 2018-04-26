@@ -466,7 +466,7 @@ a:hover
   margin:auto;
   display:block;
   /* border-radius: 2em; */	/* rounded corner */
-  border: .05em solid #d9d9d9;
+  border: .01em solid #d9d9d9;
 }
 
 .project_image_style2
@@ -488,7 +488,7 @@ a:hover
   margin:auto;
   display:block;
   /*border-radius: 2em;*/	/* rounded corner */
-  border: .05em solid #d9d9d9;
+  border: .01em solid #d9d9d9;
 }
 
 #google_scholar
