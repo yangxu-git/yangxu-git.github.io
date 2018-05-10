@@ -337,7 +337,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 .text_style_publication_name
 {
 	font-family: 'Cabin', Helvetica, sans-serif;
-	color: green;
+	color: #ff6600;
 	font-weight: bold;
 	/*text-decoration: underline;*/
 }
