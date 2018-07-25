@@ -402,7 +402,14 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	text-decoration: none;
 	padding: 0 !important;
 	font-weight: bold;
+}
 
+.hyperlink_style4
+{
+	color: #4d4dff !important;
+	text-decoration: none;
+	padding: 0 !important;
+	font-weight: bold;
 }
 
 .hyperlink_style1 a
