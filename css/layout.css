@@ -348,7 +348,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	padding-bottom: .8em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	font-weight: bold;
-	line-height: 1.2em;
+	line-height: 1.0em;
 	color: #4d4dff;  /*#3575D3*/
 }
 
