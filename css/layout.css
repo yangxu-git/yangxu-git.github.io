@@ -256,7 +256,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	line-height: 2.5em !important;
 	/*text-decoration: underline;*/
 	/*border-bottom:3px solid #17202A;*/
-	/*color: #ff6600 !important;*/
+	/*color: #FF4500 !important;*/
 }
 
 .text_style4
@@ -337,8 +337,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 .text_style_publication_name
 {
 	font-family: 'Cabin', Helvetica, sans-serif;
-	color: #ff6600;
-	font-weight: bold;
+	color: #FF4500;
 	/*text-decoration: underline;*/
 }
 
@@ -368,10 +367,10 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .hyperlink_style0
 {
-	color: #ff6600 !important;
+	color: #FF4500 !important;
 	text-decoration: none;
 	padding: 0 !important;
-	font-weight: bold;
+	
 }
 
 .hyperlink_style0 a
@@ -390,10 +389,9 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .hyperlink_style2
 {
-	color: #ff6600 !important;
+	color: #FF4500 !important;
 	text-decoration: none;
 	padding: 0 !important;
-	font-weight: bold;
 }
 
 .hyperlink_style3
@@ -409,7 +407,6 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	color: #4d4dff !important;
 	text-decoration: none;
 	padding: 0 !important;
-	font-weight: bold;
 }
 
 .hyperlink_style1 a
@@ -434,8 +431,7 @@ a:hover
 .my_name_in_publication
 {
 	font-family: 'Cabin', Helvetica, sans-serif;
-	font-weight: bold;
-	color: #ff6600;
+	color: #FF4500;
 }
 
 #my_pic
