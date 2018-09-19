@@ -138,7 +138,7 @@ table {
 {
 	display: block;
     font-size: 1em;
-	color: black;
+	color: #17202A;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	font-weight: bold;	
 	margin-top: .3em;					/* vertical spacing of the tabs*/
@@ -149,7 +149,7 @@ table {
 .ui-tabs-nav li a
 {
 	font-size: 1em;
-	color: black;
+	color: #17202A;
 	font-family: 'Cabin', Helvetica, sans-serif;
 }
 
@@ -235,15 +235,19 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 {
 	font-size: .8em;
 	font-family: 'Cabin', Helvetica, sans-serif;
-	color: black;
+	color: #17202A;
 	line-height: 1.64em;
 	text-align: justify;
 }
 
+
 .text_style2
 {
-	font-weight: bold;
-	color: black !important;
+	color: #17202A !important;
+	line-height: 2.5em;
+	/*border-bottom: 1px solid #17202A;
+    display: inline-block;
+    line-height: 1.2;*/
 }
 
 .text_style3
@@ -252,7 +256,6 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
 	color: #17202A !important;
-	font-weight: bold;
 	line-height: 2.5em !important;
 	/*text-decoration: underline;*/
 	/*border-bottom:3px solid #17202A;*/
@@ -264,7 +267,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	font-size: .9em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
-	color: black !important;
+	color: #17202A !important;
 	line-height: 2em !important;
 	/*margin-left: 2em;*/
 }
@@ -274,7 +277,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	font-size: .8em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
-	color: black !important;
+	color:  #17202A !important;
 	line-height: 1.5em !important;
 	margin-left: 2em;
 }
@@ -283,7 +286,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 {
 	font-size: .8em;
 	font-family: 'Cabin', Helvetica, sans-serif;
-	color: black;
+	color: ;
 	line-height: 1.64em;
 	/*text-indent: 2em;*/
 }
@@ -292,7 +295,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 {
     font-weight: bold;
 	font-family: 'Cabin', Helvetica, sans-serif;
-	color: black;
+	color: #17202A;
 	line-height: 1.8em;
 }
 
@@ -300,7 +303,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 {
     font-weight: bold;
 	font-family: 'Cabin', Helvetica, sans-serif;
-	color: black;
+	color: #17202A;
 	line-height: 1.8em;
 	margin-left: 16.3em;
 }
@@ -309,7 +312,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 {
     font-size: .8em;
 	font-family: 'Cabin', Helvetica, sans-serif;
-	color: black;
+	color: #17202A;
 	line-height: 1.64em;
 	/*text-indent: 2em;*/
 }
@@ -318,7 +321,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 {
     font-weight: bold;
 	font-family: 'Cabin', Helvetica, sans-serif;
-	color: black;
+	color: #17202A;
 	line-height: 1.64em;
 	padding-left: 15em;
 }
@@ -338,7 +341,6 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 {
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: #FF4500;
-	/*text-decoration: underline;*/
 }
 
 .text_style_project_name
@@ -347,7 +349,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	padding-top: .5em;
 	padding-bottom: .8em;
 	font-family: 'Cabin', Helvetica, sans-serif;
-	font-weight: bold;
+
 	line-height: 1.0em;
 	color: #4d4dff;  /*#3575D3*/
 }
@@ -381,7 +383,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .hyperlink_style1
 {
-	color: black !important;
+	color: #17202A !important;
 	text-decoration: none;
 	padding: 0 !important;
 
@@ -396,7 +398,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .hyperlink_style3
 {
-	color: black !important;
+	color: #17202A !important;
 	text-decoration: none;
 	padding: 0 !important;
 	font-weight: bold;
@@ -424,7 +426,6 @@ a:hover
 	margin-left: 1.5em;
 	font-size: 1em;
 	font-family: 'Cabin', Helvetica, sans-serif;
-	font-weight: bold;
 	color: #4d4dff !important;
 }
 
