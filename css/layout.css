@@ -343,13 +343,19 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	color: #FF4500;
 }
 
+.text_style_publication_name2
+{
+	font-family: 'Cabin', Helvetica, sans-serif;
+	color: #FF4500;
+	font-style: italic;
+}
+
 .text_style_project_name
 {
 	font-size: 1em;
 	padding-top: .5em;
 	padding-bottom: .8em;
 	font-family: 'Cabin', Helvetica, sans-serif;
-
 	line-height: 1.0em;
 	color: #4d4dff;  /*#3575D3*/
 }
@@ -401,7 +407,6 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	color: #17202A !important;
 	text-decoration: none;
 	padding: 0 !important;
-	font-weight: bold;
 }
 
 .hyperlink_style4
