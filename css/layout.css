@@ -346,7 +346,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 .text_style_publication_name2
 {
 	font-family: 'Cabin', Helvetica, sans-serif;
-	color: #FF4500;
+	color: #17202A;
 	font-style: italic;
 }
 
@@ -404,7 +404,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .hyperlink_style3
 {
-	color: #17202A !important;
+	color: #FF4500 !important;
 	text-decoration: none;
 	padding: 0 !important;
 }
