@@ -258,7 +258,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style3
 {
-	font-size: 1.3em !important;
+	font-size: 1.2em !important;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
 	color: #17202A !important;
@@ -270,7 +270,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style4
 {
-	font-size: .9em;
+	font-size: 1em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
 	color: #17202A !important;
@@ -290,7 +290,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style6
 {
-	font-size: .9em;
+	font-size: 0.9em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: ;
 	line-height: 1.64em;
@@ -396,7 +396,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .hyperlink_style1
 {
-	font-size: 0.9em;
+	font-size: 1em;
 	color: #17202A !important;
 	text-decoration: none;
 	padding: 0 !important;
@@ -405,6 +405,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .hyperlink_style2
 {
+	font-size: 0.9em;
 	color: #FF4500 !important;
 	text-decoration: none;
 	padding: 0 !important;
@@ -470,8 +471,8 @@ a:hover
 .project_image_style1
 {
 	float: left;
-	width: 14.5em;
-	height: 14.5em;
+	width: 14em;
+	height: 14em;
 	margin-top: 0.4em;
     margin-right: 1em;
     margin-bottom: 1em;
@@ -491,8 +492,8 @@ a:hover
 .project_image_style2
 {
 	float: right;
-	width: 14.5em;
-	height: 14.5em;
+	width: 14em;
+	height: 14em;
 	margin-top: 0.4em;
     margin-right: 1em;
     margin-bottom: 1em;
@@ -513,8 +514,8 @@ a:hover
 .project_image_style3
 {
 	float: left;
-	width: 14.5em;
-	height: 14.5em;
+	width: 14em;
+	height: 14em;
 	margin-top: 0.4em;
     margin-right: 1em;
     margin-bottom: 1em;
@@ -534,8 +535,8 @@ a:hover
 .project_image_style4
 {
 	float: right;
-	width: 14.5em;
-	height: 14.5em;
+	width: 14em;
+	height: 14em;
 	margin-top: 0.4em;
     margin-right: 1em;
     margin-bottom: 1em;
