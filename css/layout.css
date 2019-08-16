@@ -60,7 +60,7 @@ table {
 
 .main
 {
-	width: 55em;
+	width: 70em;
 	background-color: white;
 	margin: 0 auto;
 	padding:.1em 0 0 0 ;
@@ -68,8 +68,8 @@ table {
 
 .name_div					/* div for name (YangXu)*/
 {
-	width: 55em;
-	height: 4em;
+	width: 70em;
+	height: 5em;
 	background-color: #ff6600;
 	margin-top: 1.5em;
 }
@@ -79,7 +79,7 @@ table {
 	float: left;
 	font-size: 3em;
 	margin-left: .6em;
-	margin-top: .15em;
+	margin-top: .3em;
 	color: white;
 	font-family:  "Times New Roman", Times, serif;
 }
@@ -90,7 +90,7 @@ table {
 	text-align: right;
 	font-size: 1em;
 	margin-right: 1em;
-	margin-top: .7em;
+	margin-top: 1em;
 	line-height: 1.4em;
 	color: white;
 	font-family:  "Times New Roman", Times, serif;
@@ -98,7 +98,7 @@ table {
 
 .ui-tabs-vertical		/* the object of the whole tab, can setup width and height */
 { 
-	width: 54em; 
+	width: 69em; 
 	border: none; 
 }
 
@@ -137,7 +137,7 @@ table {
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a 	/* change the style of the text of the selected tab*/
 {
 	display: block;
-    font-size: 1em;
+    font-size: 1.1em;
 	color: #17202A;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	font-weight: bold;	
@@ -148,7 +148,7 @@ table {
 
 .ui-tabs-nav li a
 {
-	font-size: 1em;
+	font-size: 1.1em;
 	color: #17202A;
 	font-family: 'Cabin', Helvetica, sans-serif;
 }
@@ -176,11 +176,10 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 #home_section
 {
-	width: 42em;
+	width: 57em;
 	padding-top: .5em;
 	background-color: white;
 }
-
 
 #bio
 {
@@ -190,21 +189,28 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 #publication_section
 {
-	width: 42em;
+	width: 57em;
 	padding-top: 1em;
 	background-color: white;
 }
 
 #research_section
 {
-	width: 42em;
+	width: 57em;
+	padding-top: .5em;
+	background-color: white;
+}
+
+#opennings_section
+{
+	width: 57em;
 	padding-top: .5em;
 	background-color: white;
 }
 
 .copyright_div
 {
-	width: 55em;
+	width: 70em;
 	height: 3em;
 	background-color: #404040;
 }
@@ -233,7 +239,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style1
 {
-	font-size: .8em;
+	font-size: 1em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: #17202A;
 	line-height: 1.64em;
@@ -252,7 +258,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style3
 {
-	font-size: 1.2em !important;
+	font-size: 1.5em !important;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
 	color: #17202A !important;
@@ -264,7 +270,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style4
 {
-	font-size: .9em;
+	font-size: 1.1em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
 	color: #17202A !important;
@@ -274,7 +280,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style5
 {
-	font-size: .8em;
+	font-size: 1em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
 	color:  #17202A !important;
@@ -284,7 +290,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style6
 {
-	font-size: .8em;
+	font-size: 1em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: ;
 	line-height: 1.64em;
@@ -310,7 +316,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style8
 {
-    font-size: .8em;
+    font-size: 1em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: #17202A;
 	line-height: 1.64em;
@@ -352,7 +358,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style_project_name
 {
-	font-size: 1em;
+	font-size: 1.3em;
 	padding-top: .5em;
 	padding-bottom: .8em;
 	font-family: 'Cabin', Helvetica, sans-serif;
@@ -428,8 +434,8 @@ a:hover
 
 .text_style_publication_date
 {
-	margin-left: 1.5em;
-	font-size: 1em;
+	font-size: 1.3em;
+	margin-left: 1.45em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: #4d4dff !important;
 }
@@ -445,8 +451,8 @@ a:hover
 #my_pic
 {
 	float: left;
-	width: 12.5em;
-    height: 12.5em;
+	width: 14.5em;
+    height: 14.5em;
     margin-right: 1em;
     margin-bottom: 1em;
 }
@@ -462,8 +468,8 @@ a:hover
 .project_image_style1
 {
 	float: left;
-	width: 12em;
-	height: 12em;
+	width: 14.5em;
+	height: 14.5em;
 	margin-top: 0.4em;
     margin-right: 1em;
     margin-bottom: 1em;
@@ -483,8 +489,8 @@ a:hover
 .project_image_style2
 {
 	float: right;
-	width: 12em;
-	height: 12em;
+	width: 14.5em;
+	height: 14.5em;
 	margin-top: 0.4em;
     margin-right: 1em;
     margin-bottom: 1em;
@@ -505,8 +511,8 @@ a:hover
 .project_image_style3
 {
 	float: left;
-	width: 12em;
-	height: 12em;
+	width: 14.5em;
+	height: 14.5em;
 	margin-top: 0.4em;
     margin-right: 1em;
     margin-bottom: 1em;
@@ -526,8 +532,8 @@ a:hover
 .project_image_style4
 {
 	float: right;
-	width: 12em;
-	height: 12em;
+	width: 14.5em;
+	height: 14.5em;
 	margin-top: 0.4em;
     margin-right: 1em;
     margin-bottom: 1em;
@@ -548,8 +554,8 @@ a:hover
 #google_scholar
 {
 	float: left;
-	width: 8.8em;
-    height: 3.5em;
+	width: 11.2em;
+    height: 4.45em;
     /*box-shadow: 5px 5px 3px grey;*/
 }
 
@@ -565,8 +571,8 @@ a:hover
 #researchgate
 {
 	float: left;
-	width: 10.76em;
-    height: 3.5em;
+	width: 13.69em;
+    height: 4.45em;
     margin-left: 2em;
     /*box-shadow: 5px 5px 3px grey;*/
 }
@@ -583,8 +589,8 @@ a:hover
 #orcid 
 {
 	float: left;
-	width: 9.7em;
-    height: 3.5em;
+	width: 12.35em;
+    height: 4.45em;
     margin-left: 2em;
     /*box-shadow: 5px 5px 3px grey;*/
 }
@@ -601,8 +607,8 @@ a:hover
 #twitter
 {
 	float: left;
-	width: 3.5em;
-    height: 3em;
+	width: 4.7em;
+    height: 4em;
     margin-left: 2em;
     margin-top: .3em;
     /*box-shadow: 5px 5px 3px grey;*/
