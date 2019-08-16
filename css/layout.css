@@ -239,7 +239,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style1
 {
-	font-size: 1em;
+	font-size: 1.05em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: #17202A;
 	line-height: 1.64em;
@@ -451,8 +451,8 @@ a:hover
 #my_pic
 {
 	float: left;
-	width: 14.5em;
-    height: 14.5em;
+	width: 14.9em;
+    height: 14.9em;
     margin-right: 1em;
     margin-bottom: 1em;
 }
