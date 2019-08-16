@@ -54,7 +54,7 @@ table {
 {
 	width: 100%;
 	background-color: #999999;
-	background-image: url("../img/blue.jpg");
+	background-image: linear-gradient(to bottom, #2193b0,  #6dd5ed);
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
@@ -71,7 +71,7 @@ table {
 {
 	width: 67em;
 	height: 5em;
-	background-color: #004f86;
+	background-color: #004e92;
 	margin-top: 1.5em;
 }
 
