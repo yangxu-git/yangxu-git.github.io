@@ -54,13 +54,14 @@ table {
 {
 	width: 100%;
 	background-color: #999999;
+	background-image: url(YangXu_Photo_20170305_Clip.jpg);
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
 .main
 {
-	width: 70em;
+	width: 67em;
 	background-color: white;
 	margin: 0 auto;
 	padding:.1em 0 0 0 ;
@@ -68,7 +69,7 @@ table {
 
 .name_div					/* div for name (YangXu)*/
 {
-	width: 70em;
+	width: 67em;
 	height: 5em;
 	background-color: #ff6600;
 	margin-top: 1.5em;
@@ -98,7 +99,7 @@ table {
 
 .ui-tabs-vertical		/* the object of the whole tab, can setup width and height */
 { 
-	width: 69em; 
+	width: 66em; 
 	border: none; 
 }
 
@@ -171,12 +172,12 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 { 
 	padding-top: .2em !important; 
 	float: left; 
-	width: 40em;
+	width: 52em;
 }
 
 #home_section
 {
-	width: 57em;
+	width: 54em;
 	padding-top: .5em;
 	background-color: white;
 }
@@ -188,28 +189,28 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 #publication_section
 {
-	width: 57em;
+	width: 54em;
 	padding-top: 1em;
 	background-color: white;
 }
 
 #research_section
 {
-	width: 57em;
+	width: 54em;
 	padding-top: .5em;
 	background-color: white;
 }
 
 #opennings_section
 {
-	width: 57em;
+	width: 54em;
 	padding-top: .5em;
 	background-color: white;
 }
 
 .copyright_div
 {
-	width: 70em;
+	width: 67em;
 	height: 3em;
 	background-color: #404040;
 }
@@ -238,7 +239,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style1
 {
-	font-size: 1.05em;
+	font-size: 1em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: #17202A;
 	line-height: 1.64em;
@@ -257,7 +258,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style3
 {
-	font-size: 1.5em !important;
+	font-size: 1.3em !important;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
 	color: #17202A !important;
@@ -269,7 +270,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style4
 {
-	font-size: 1.1em;
+	font-size: .9em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
 	color: #17202A !important;
@@ -279,7 +280,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style5
 {
-	font-size: 1em;
+	font-size: 0.9em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
 	color:  #17202A !important;
@@ -289,7 +290,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style6
 {
-	font-size: 1em;
+	font-size: .9em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: ;
 	line-height: 1.64em;
@@ -298,6 +299,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style7
 {
+	font-size: 0.9em;
     font-weight: bold;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: #17202A;
@@ -315,7 +317,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .text_style8
 {
-    font-size: 1em;
+    font-size: .9em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: #17202A;
 	line-height: 1.64em;
@@ -394,6 +396,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .hyperlink_style1
 {
+	font-size: 0.9em;
 	color: #17202A !important;
 	text-decoration: none;
 	padding: 0 !important;
@@ -433,8 +436,8 @@ a:hover
 
 .text_style_publication_date
 {
-	font-size: 1.3em;
-	margin-left: 1.45em;
+	font-size: 1.1em;
+	margin-left: 1.5em;
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: #4d4dff !important;
 }
@@ -450,8 +453,8 @@ a:hover
 #my_pic
 {
 	float: left;
-	width: 14.9em;
-    height: 14.9em;
+	width: 14em;
+    height: 14em;
     margin-right: 1em;
     margin-bottom: 1em;
 }
