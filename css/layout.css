@@ -557,8 +557,8 @@ a:hover
 #google_scholar
 {
 	float: left;
-	width: 11.2em;
-    height: 4.45em;
+	width: 9.96em;
+    height: 4em;
     /*box-shadow: 5px 5px 3px grey;*/
 }
 
@@ -574,8 +574,8 @@ a:hover
 #researchgate
 {
 	float: left;
-	width: 13.69em;
-    height: 4.45em;
+	width: 12.30em;
+    height: 4em;
     margin-left: 2em;
     /*box-shadow: 5px 5px 3px grey;*/
 }
@@ -592,8 +592,8 @@ a:hover
 #orcid 
 {
 	float: left;
-	width: 12.35em;
-    height: 4.45em;
+	width: 11.1em;
+    height: 4em;
     margin-left: 2em;
     /*box-shadow: 5px 5px 3px grey;*/
 }
@@ -610,8 +610,8 @@ a:hover
 #twitter
 {
 	float: left;
-	width: 4.7em;
-    height: 4em;
+	width: 4.2em;
+    height: 3.5em;
     margin-left: 2em;
     margin-top: .3em;
     /*box-shadow: 5px 5px 3px grey;*/
