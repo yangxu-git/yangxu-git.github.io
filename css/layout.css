@@ -54,7 +54,7 @@ table {
 {
 	width: 100%;
 	background-color: #999999;
-	background-image: url(YangXu_Photo_20170305_Clip.jpg);
+	background-image: url("../img/blue.jpg");
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
@@ -71,7 +71,7 @@ table {
 {
 	width: 67em;
 	height: 5em;
-	background-color: #ff6600;
+	background-color: #004f86;
 	margin-top: 1.5em;
 }
 
