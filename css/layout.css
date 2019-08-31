@@ -273,7 +273,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	font-family: 'Cabin', Helvetica, sans-serif;
 	text-align: justify;
 	color: #17202A !important;
-	line-height: 2em !important;
+	line-height: 1.8em !important;
 	/*margin-left: 2em;*/
 }
 
@@ -342,6 +342,11 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
     font-size: 1.2em;
 }
 
+.text_style_msc_name
+{
+	font-family: 'Cabin', Helvetica, sans-serif;
+	color: #4d4dff !important;
+}
 
 .text_style_publication_name
 {
