@@ -345,7 +345,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 .text_style_msc_name
 {
 	font-family: 'Cabin', Helvetica, sans-serif;
-	color: #4d4dff !important;
+	color: #FF4500;
 }
 
 .text_style_publication_name
@@ -358,7 +358,6 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 {
 	font-family: 'Cabin', Helvetica, sans-serif;
 	color: #17202A;
-	font-style: italic;
 }
 
 .text_style_project_name
@@ -386,7 +385,6 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 
 .hyperlink_style0
 {
-	color: #FF4500 !important;
 	text-decoration: none;
 	padding: 0 !important;
 	
@@ -425,6 +423,14 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 .hyperlink_style4
 {
 	color: #4d4dff !important;
+	text-decoration: none;
+	padding: 0 !important;
+}
+
+.hyperlink_style5
+{
+	color: #FF4500 !important;
+	font-family: 'Cabin', Helvetica, sans-serif;
 	text-decoration: none;
 	padding: 0 !important;
 }
