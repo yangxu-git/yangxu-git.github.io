@@ -174,6 +174,10 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 	width: 52em;
 }
 
+hr{
+  border: .5px solid #ff6600;
+}
+
 #home_section
 {
 	width: 54em;
