@@ -337,6 +337,22 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
     font-style: italic;
 }
 
+.text_style11
+{
+	font-size: 1.2em !important;
+	font-family: 'Cabin', Helvetica, sans-serif;
+	text-align: justify;
+	color: #17202A !important;
+	padding-top: 1em;
+}
+
+.text_style_student
+{
+	font-size: 1.1em !important;
+	padding-left: 1em;
+	line-height: 2em;
+}
+
 .star_sign
 {
     font-size: 1.2em;
