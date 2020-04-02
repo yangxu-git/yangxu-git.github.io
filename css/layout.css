@@ -175,7 +175,7 @@ li:focus { outline: none; } 	/* remove the outline of the selected tab button*/
 }
 
 hr{
-  border: .5px solid #ffe4b2;
+  border: .5px solid  #C8C8C8;
 }
 
 #home_section
@@ -357,7 +357,7 @@ hr{
 
 .text_style_student
 {
-	font-size: .9em !important;
+	font-size: 1em !important;
 	padding-left: 1em;
 	line-height: 2em;
 }
