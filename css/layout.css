@@ -598,6 +598,13 @@ a:hover
   border: .07em solid #d9d9d9;
 }
 
+.image_style5
+{
+   border-width: 1px;
+   border-color: #D3D3D3;
+   border-style: solid;
+}
+
 #google_scholar
 {
 	float: left;
