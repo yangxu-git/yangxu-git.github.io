@@ -48,6 +48,11 @@ table {
 	border-spacing: 0;
 }
 
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
 /* Below are custom css settings*/
 
 .whole
